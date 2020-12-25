@@ -10,3 +10,5 @@ python tictactoe.py and
 choose first and second players from the list of players.
 
 repeated_battle_all.py compares 4 AI agents across 50 games. 
+
+![Stats](stats_ai_with_minimax.png)
