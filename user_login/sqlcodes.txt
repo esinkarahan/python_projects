@@ -1,0 +1,21 @@
+#create table
+CREATE TABLE users(
+  username VARCHAR,
+  password_hash VARCHAR
+  );
+
+#insert row
+INSERT INTO users (username,password_hash)
+VALUES
+	("test","b8fd23c8ad9f90270d6ab278db7aae63318cb9b1d58922bf711a38d29251263f"),
+    ("robert","a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"),
+    ("alli","6c69edc1dbbd3ef870c5252accdf9535964eb9234d8979650267ac14b26ade40"),
+    ("esin","16929356a9fd12dc1db80a0707e080c8d663f6f68ef381d3628b9a4291d229ef"),
+	("serkan","18035efc19b06b0e49d1394a586e7e03d377d994f11f8ce6edd90d472170b176");
+
+
+#check rows
+SELECT * FROM users;
+
+# delete
+DELETE FROM users;
