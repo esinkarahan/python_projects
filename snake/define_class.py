@@ -1,9 +1,5 @@
 import random
 # Define directions
-# UP = (0, 1)
-# DOWN = (0, -1)
-# LEFT = (-1, 0)
-# RIGHT = (0, 1)
 global UP, DOWN, LEFT, RIGHT
 UP = (-1, 0)
 DOWN = (1, 0)
@@ -19,7 +15,6 @@ class Snake:
     def take_step(self, position):
         # add this position to the front of the snake’s body,
         # and pop off the back position
-#        self.body = self.body[1:] + [position]
         self.body = self.body[1:] + [tuple(map(sum, zip(self.head(), position)))]
         # every time it moves, update direction
         self.set_direction()

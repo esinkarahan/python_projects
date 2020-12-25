@@ -2,6 +2,8 @@
 ## Play tic-tac-toe with 2 players
 ##################################
 # Players can be AI or human
+# Project based on https://robertheaton.com/2018/10/09/programming-projects-for-advanced-beginners-3-b/
+#
 # December. 2020
 
 from tictactoe_ai_functions import *
@@ -10,6 +12,7 @@ from tictactoe_minimax import minimax_ai
 
 def tictactoe(alg1, alg2):
     board = new_board()
+    render(board)
     player = 'X'
     player_name = alg1
     while True:

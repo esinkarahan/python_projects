@@ -1,4 +1,8 @@
-# tic-tac-toe
+# Project tic-tac-toe game based on Robert Heaton's website
+# https://robertheaton.com/2018/10/09/programming-projects-for-advanced-beginners-3-a/
+#
+# December 2020, Esin
+
 import random
 
 width = 3
@@ -117,6 +121,7 @@ def check_for_draw(board):
 if __name__ == '__main__':
     print('welcome to 2 players tic-tac-toe game!')
     board = new_board()
+    render(board)
     player = 'X'
     while True:
         while True:

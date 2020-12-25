@@ -1,3 +1,8 @@
+# Project Snake based on Robert Heaton's website
+# https://robertheaton.com/2018/12/02/programming-project-5-snake/
+#
+# October 2020, Esin
+
 from define_class import *
 
 # play Snake game by pressing
@@ -27,8 +32,11 @@ def check_wall(head_new, matrix):
 
 
 print('Welcome to Snake 1.0! ')
-height = input('Write the board height you want to play: ')
-width = input('Write the board width you want to play: ')
+print('Play Snake game by pressing W for up, S for down, A for left, D for right')
+print('After entering direction, press Enter to make the move')
+
+height = input('Enter the board height you want to play e.g. 10: ')
+width = input('Enter the board width you want to play e.g. 20: ')
 if len(height) == 0:
     height = 10
 if len(width) == 0:
