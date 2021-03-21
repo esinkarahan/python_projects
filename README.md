@@ -1,6 +1,14 @@
 # python_projects
-Python projects for several applications
+My projects based on python for several applications
 
-Projects are based on https://robertheaton.com
+Projects ideas are from https://robertheaton.com
 
-keywords: snake game, user login, hash, AI, databases, game of life, tictactoe, minimax algorithm, minimax with alpha beta pruning
+Games:
+Snake
+Game of life
+Tictoctoe (two player and AI version)
+
+Others:
+User login
+
+keywords: hash, AI, databases, minimax algorithm, minimax with alpha beta pruning
