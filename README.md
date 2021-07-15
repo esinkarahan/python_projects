@@ -10,5 +10,6 @@ Games:
 
 Others:
 * User login
+* Ascii art
 
 keywords: hash, AI, databases, minimax algorithm, minimax with alpha beta pruning
