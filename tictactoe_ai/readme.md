@@ -9,10 +9,10 @@ Play tic-tac-toe against human player or following (smart and non-smart) Artific
 4. **minimax_ai**: smart AI, implements minimax algorithm with alpha-beta pruning
 
 To play, run
-python tictactoe.py and
+`python tictactoe.py` and
 choose first and second players from the list of players.
 
-repeated_battle_all.py compares 4 AI agents across 50 games. 
+`repeated_battle_all.py` compares 4 AI agents across 50 games. 
 
 Minimax-AI never loses a game against themselves or any other AI!
 
