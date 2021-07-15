@@ -16,6 +16,16 @@ repeated_battle_all.py compares 4 AI agents across 50 games.
 
 Minimax-AI never loses a game against themselves or any other AI!
 
+In this figure, 
+* Game 1 is random_ai vs find_winning_moves_ai
+* Game 2 is random_ai vs find_winning_and_losing_moves_ai
+* Game 3 is random_ai vs minimax_ai
+* Game 4 is find_winning_moves_ai vs find_winning_and_losing_moves_ai
+* Game 5 is find_winning_moves_ai vs minimax_ai
+* Game 6 is find_winning_and_losing_moves_ai vs minimax_ai
+ 
 ![Stats](stats_ai_with_minimax.png)
+
+This figure shows when minimax_ai is implemented with pruning.
 
 ![Stats](stats_ai_with_pruning.png)
