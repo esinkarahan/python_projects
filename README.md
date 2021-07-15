@@ -4,9 +4,9 @@ My projects based on python for several applications
 Projects ideas are from https://robertheaton.com
 
 Games:
+* Tictoctoe (two player and Atrifical Intelligence version)
 * Snake
 * Game of life
-* Tictoctoe (two player and AI version)
 
 Others:
 * User login
